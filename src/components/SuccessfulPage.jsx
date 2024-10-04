@@ -7,7 +7,11 @@ const SuccessfulPage = () => {
     <>
       <VStack w="100%" pt="3rem">
         <FaCheckCircle size="10rem" color="green" />
-        <Text color="#888" fontSize={{ md: "4vw", base: "10vw" }}>
+        <Text
+          textAlign="center"
+          color="#888"
+          fontSize={{ md: "4vw", base: "10vw" }}
+        >
           Submisson successful!
         </Text>
         <Text

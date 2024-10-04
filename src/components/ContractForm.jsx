@@ -47,11 +47,11 @@ const ContractForm = ({ setCurrentBottom, onFileUpload, pdfData }) => {
 
   return (
     <VStack w="100%" h="85dvh">
-      <VStack>
-        <Text fontSize="2rem" fontWeight="600">
+      <VStack pt={{ base: "1rem" }}>
+        <Text textAlign="center" fontSize="2rem" fontWeight="600">
           Upload Your Signed Contract
         </Text>
-        <Text>
+        <Text textAlign="center">
           Upload a signed copy of the performance contract in{" "}
           <span style={{ color: "red", fontWeight: "600" }}>
             PDF format only
