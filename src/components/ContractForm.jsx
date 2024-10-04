@@ -30,6 +30,8 @@ const ContractForm = ({ setCurrentBottom, onFileUpload, pdfData }) => {
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept: { "application/pdf": [] },
+    noClick: true, // Disable automatic opening of the file dialog
+    noKeyboard: true, // Disable keyboard interaction (helpful for mobile)
   });
 
   const handleFileChange = (event) => {
@@ -73,7 +75,11 @@ const ContractForm = ({ setCurrentBottom, onFileUpload, pdfData }) => {
           bg="rgba(255, 255, 255, 0.8)"
           _hover={{ bg: "gray.100" }}
         >
-          <input {...getInputProps()} onChange={handleFileChange} />
+          <input
+            {...getInputProps()}
+            onChange={handleFileChange}
+            style={{ display: "none" }} // Hide the file input
+          />
           {isDragActive ? (
             <Text mb="1rem">Drop the PDF file here...</Text>
           ) : (

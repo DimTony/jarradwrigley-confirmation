@@ -402,14 +402,14 @@ const PaymentForm = ({
         {!isGenerating && step === 2 && (
           <VStack w="20rem">
             <Box
-              w="100%"
+              w="fit-content"
               h="100%"
               bg="white"
               borderRadius="1rem"
               py="1rem"
               border="0.5px solid rgba(48, 106, 192, 0.3)"
             >
-              <VStack w="100%">
+              <VStack w="fit-content">
                 <VStack spacing={0}>
                   <Image src={PayPalLogo} alt="pp" w="5rem" h="auto" />
                   <Text fontSize="1.5rem">Upload Receipt</Text>
