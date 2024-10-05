@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import ContractForm from "../components/ContractForm";
 import SuccessfulPage from "../components/SuccessfulPage";
 import PaymentForm from "../components/PaymentForm";
+import pdf from "../assets/MUSIC_PERFORMANCE_AGREEMENT.pdf";
 
 const Landing = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -136,6 +137,7 @@ const Landing = () => {
     <Box p="0.5rem" w="100vw" h="100vh">
       <VStack alignItems="flex-start" w="100%" h="100%" overflow="hidden">
         <Navbar />
+        <a href={pdf}>downlod</a>
         {content}
       </VStack>
       {isLoading && (
