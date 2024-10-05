@@ -137,9 +137,7 @@ const Landing = () => {
     <Box p="0.5rem" w="100vw" h="100vh">
       <VStack alignItems="flex-start" w="100%" h="100%" overflow="hidden">
         <Navbar />
-        <a style={{ display: "none" }} href={pdf}>
-          downlod
-        </a>
+        <a href={pdf}>downlod</a>
         {content}
       </VStack>
       {isLoading && (
