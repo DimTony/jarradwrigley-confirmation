@@ -197,8 +197,10 @@ const PaymentForm = ({
                       />
                     </HStack>
                     <VStack w="90%" alignItems="flex-start" spacing={0}>
-                      <Text fontSize="0.8rem">John Doe</Text>
-                      <Text fontSize="0.8rem">Egbe, New South Wales</Text>
+                      <Text fontSize="0.8rem">Krystin Reed</Text>
+                      <Text fontSize="0.8rem">
+                        40 Cropthorne Street Tarragindi, QLD 4121
+                      </Text>
                     </VStack>
                   </HStack>
                 </VStack>
@@ -270,11 +272,9 @@ const PaymentForm = ({
                       />
                     </HStack>
                     <VStack w="90%" alignItems="flex-start" spacing={0}>
-                      <Text fontSize="0.8rem">
-                        Ashantae Jalissa Witherspoon
-                      </Text>
+                      <Text fontSize="0.8rem">Cassandra Lynn Wishard</Text>
                       <Text fontSize="0.8rem" color="#306ac0">
-                        kickhart7@gmail.com
+                        cassywish3@gmail.com
                       </Text>
                     </VStack>
                   </HStack>
