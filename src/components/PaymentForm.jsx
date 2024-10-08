@@ -356,7 +356,7 @@ const PaymentForm = ({
                       justifyContent="space-between"
                     >
                       <Text>Transfer Amount</Text>
-                      <Text>A$500.00</Text>
+                      <Text>A$600.00</Text>
                     </HStack>
                     <HStack
                       fontSize="0.8rem"
@@ -365,7 +365,7 @@ const PaymentForm = ({
                       justifyContent="space-between"
                     >
                       <Text>Outstanding Amount</Text>
-                      <Text>-A$500.00</Text>
+                      <Text>-A$400.00</Text>
                     </HStack>
                     <HStack
                       fontSize="0.8rem"
