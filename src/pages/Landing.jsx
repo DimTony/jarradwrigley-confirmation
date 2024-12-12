@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import ContractForm from "../components/ContractForm";
 import SuccessfulPage from "../components/SuccessfulPage";
 import PaymentForm from "../components/PaymentForm";
-import pdf from "../assets/MUSIC_PERFORMANCE_AGREEMENT.pdf";
+import pdf from "../assets/MUSIC_PERFORMANCE_AGREEMENT-samarcher12122024.pdf";
 
 const Landing = () => {
   const [isLoading, setIsLoading] = useState(false);
